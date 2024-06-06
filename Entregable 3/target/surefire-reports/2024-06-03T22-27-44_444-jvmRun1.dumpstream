@@ -1,0 +1,17 @@
+# Created at 2024-06-03T22:27:55.523
+TestSet has not finished before stream error has appeared >> initializing exit by non-null configuration: null
+java.io.EOFException
+	at java.base/java.io.DataInputStream.readInt(DataInputStream.java:398)
+	at org.apache.maven.surefire.booter.MasterProcessCommand.decode(MasterProcessCommand.java:115)
+	at org.apache.maven.surefire.booter.CommandReader$CommandRunnable.run(CommandReader.java:391)
+	at java.base/java.lang.Thread.run(Thread.java:842)
+
+
+# Created at 2024-06-03T22:28:17.171
+Unexpected IOException: 7,1,org.example.api_rest_db.TestMainVerticle,verticle_deployed{Vertx\002C VertxTestContext},null,The test execution timed out. Make sure your asynchronous code includes calls to either VertxTestContext#completeNow()\002C VertxTestContext#failNow() or Checkpoint#flag()\000A\000AUnsatisfied checkpoints diagnostics:\000A,null,The test execution timed out. Make sure your asynchronous code includes calls to either VertxTestContext#completeNow()\002C VertxTestContext#failNow() or Checkpoint#flag()\000A\000AUnsatisfied checkpoints diagnostics:\000A,TestMainVerticle.verticle_deployed \00BB Timeout The test execution timed out. Mak...,java.util.concurrent.TimeoutException: \000AThe test execution timed out. Make sure your asynchronous code includes calls to either VertxTestContext#completeNow()\002C VertxTestContext#failNow() or Checkpoint#flag()\000A\000AUnsatisfied checkpoints diagnostics:\000A\000A
+
+
+# Created at 2024-06-03T22:28:17.181
+Unexpected IOException: 2,1,org.apache.maven.surefire.junitplatform.JUnitPlatformProvider,org.example.api_rest_db.TestMainVerticle,null,null,null
+
+
