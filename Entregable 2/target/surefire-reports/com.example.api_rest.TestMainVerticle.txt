@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: com.example.api_rest.TestMainVerticle
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.083 s - in com.example.api_rest.TestMainVerticle
