@@ -40,6 +40,8 @@ Este entregable se centrará en reemplazar los repositorios en memoria (Map o Li
 
 Se desarrollará el código firmware necesario para realizar peticiones a los endpoints definidos en el entregable anterior. Este firmware permitirá obtener datos de los sensores e insertarlos en la base de datos mediante llamadas al método POST correspondiente. Este componente es crucial para la interacción efectiva entre el hardware y el servidor.
 
+![Arduino](Evidencias/Entregable4-firmware.png)
+
 ## Quinto entregable: Funcionalidad MQTT
 
 El último entregable consiste en implementar la funcionalidad MQTT para permitir el intercambio de mensajes entre el servidor y la placa. Esta funcionalidad permitirá que el servidor envíe mensajes a la placa indicando el nuevo estado de los actuadores cuando se reciba un valor actualizado de un sensor. Además, la placa deberá realizar llamadas al método POST correspondiente en la API Rest para almacenar el nuevo estado del actuador. Esta característica mejorará la comunicación bidireccional y la sincronización entre los dispositivos y el servidor.
