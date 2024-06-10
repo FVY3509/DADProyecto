@@ -46,4 +46,4 @@ Se desarrollará el código firmware necesario para realizar peticiones a los en
 
 El último entregable consiste en implementar la funcionalidad MQTT para permitir el intercambio de mensajes entre el servidor y la placa. Esta funcionalidad permitirá que el servidor envíe mensajes a la placa indicando el nuevo estado de los actuadores cuando se reciba un valor actualizado de un sensor. Además, la placa deberá realizar llamadas al método POST correspondiente en la API Rest para almacenar el nuevo estado del actuador. Esta característica mejorará la comunicación bidireccional y la sincronización entre los dispositivos y el servidor.
 
-![mqtt](Evidencias/Entregable4-mqtt.png)
+![mqtt](Evidencias/Entregable5-mqtt.png)
