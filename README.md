@@ -4,6 +4,14 @@
 
 Este entregable tiene como objetivo implementar un servlet que gestione peticiones GET y POST para un tipo de datos definido. Se espera que ambos métodos devuelvan una respuesta en formato JSON. En particular, el método doPOST deberá recibir un JSON en el cuerpo de la solicitud que contenga la instancia del tipo de datos que se desea añadir. Los datos se almacenarán temporalmente en memoria, utilizando estructuras como Map o List, sin necesidad de conexión a una base de datos.
 
+### Funcionalidad
+
+* Peticion POST
+![Peticion Post](Evidencias/Entregable1-PeticionPostSensor.png)
+
+* Peticion GET
+![Peticion Post](Evidencias/Entregable1-PeticionGetSensor.png)
+
 ## Segundo entregable: Implementacion de endpoints con vert.x 
 
 En este entregable, se implementarán los endpoints necesarios para la gestión de la API Rest del proyecto utilizando Vert.x. Se incluirán métodos de consulta (GET) e inserción (POST) para los tipos de datos identificados, como Sensor y Actuador. Los endpoints GET permitirán obtener el listado de valores de un sensor y el último valor reportado. Al igual que en el entregable anterior, los datos se almacenarán en memoria usando Map o List. Se valorará la implementación de funcionalidades adicionales.
