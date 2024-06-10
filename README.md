@@ -22,6 +22,8 @@ En este entregable, se implementarán los endpoints necesarios para la gestión 
   
 ![VertX](Evidencias/Entregable2-IntegracionVertX.png)
 
+* Enpoint que muestra la ultima entrada del sensor que se ha registrado
+
 ![VertX](Evidencias/Entregable2-IntegracionVertXultima.png)
 
 ## Tercer entregable: Conexion de base de datos 
