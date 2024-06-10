@@ -16,6 +16,14 @@ Este entregable tiene como objetivo implementar un servlet que gestione peticion
 
 En este entregable, se implementarán los endpoints necesarios para la gestión de la API Rest del proyecto utilizando Vert.x. Se incluirán métodos de consulta (GET) e inserción (POST) para los tipos de datos identificados, como Sensor y Actuador. Los endpoints GET permitirán obtener el listado de valores de un sensor y el último valor reportado. Al igual que en el entregable anterior, los datos se almacenarán en memoria usando Map o List. Se valorará la implementación de funcionalidades adicionales.
 
+## Funcionalidad
+
+* Integracion VertX
+  
+![VertX](Evidencias/Entregable2-IntegracionVertX.png)
+
+![VertX](Evidencias/Entregable2-IntegracionVertXultima.png)
+
 ## Tercer entregable: Conexion de base de datos 
 
 Este entregable se centrará en reemplazar los repositorios en memoria (Map o List) por una conexión a una base de datos. La nueva implementación permitirá gestionar la información necesaria para la API Rest de manera persistente, mejorando así la capacidad de almacenamiento y recuperación de datos.
