@@ -30,6 +30,12 @@ En este entregable, se implementarán los endpoints necesarios para la gestión 
 
 Este entregable se centrará en reemplazar los repositorios en memoria (Map o List) por una conexión a una base de datos. La nueva implementación permitirá gestionar la información necesaria para la API Rest de manera persistente, mejorando así la capacidad de almacenamiento y recuperación de datos.
 
+### Base de datos (MYSQL)
+
+* Integracion de base de datos
+
+![DB](Evidencias/Entregable3-IntegracionBaseDatos.png)
+
 ## Cuarto entregable: Codigo Firmware
 
 Se desarrollará el código firmware necesario para realizar peticiones a los endpoints definidos en el entregable anterior. Este firmware permitirá obtener datos de los sensores e insertarlos en la base de datos mediante llamadas al método POST correspondiente. Este componente es crucial para la interacción efectiva entre el hardware y el servidor.
